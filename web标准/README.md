@@ -77,7 +77,7 @@ __W3C标准：__[CSS 2.1]((http://www.w3.org/TR/CSS21/)
 
 __参考资料：__[百度百科](http://baike.baidu.com/view/14806.htm), [维基百科](http://zh.wikipedia.org/wiki/DOM)
 
-__W3C标准：__[DOM4]((http://www.w3.org/TR/dom/) 
+__W3C标准：__[DOM4](http://www.w3.org/TR/dom/) 
 
 
 
