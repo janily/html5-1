@@ -33,8 +33,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 __公共标识符格式：__
 ```html
-前缀//所有者//类型 标签描述            //语言//显示版本
--  //W3C  //DTD XHTML 1.0 Strict   //EN //...
+前缀//所有者 //类型 标签描述            //语言//显示版本
+-  //W3C   //DTD XHTML 1.0 Strict   //EN //...
 ```
 
 __公共标识符前缀类型：___
