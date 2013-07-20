@@ -75,7 +75,8 @@ Google Chrome Frame（Google Chrome內嵌框架）是专为Internet Explorer设�
 网页设计员可以在网页中加入以下代码使网站能以Chrome Frame浏览：
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
-<!-- 若浏览者有安装Chrome Frame，且浏览者的IE浏览器版本为IE8或更低，此代码会自动引导浏览器激活插件进行排版及运算；但若浏览者并没有安装插件或IE版本为IE9或更高，则不会进行任何动作。 -->
+<!-- 若浏览者有安装Chrome Frame，且浏览者的IE浏览器版本为IE8或更低，此代码会自动引导浏览器激活插件进行排版及运算；
+但若浏览者并没有安装插件或IE版本为IE9或更高，则不会进行任何动作。 -->
 ```
 
 __参考资料：__
