@@ -35,19 +35,24 @@ IE 浏览器支持多种文档兼容模式，得以因此改变页面的渲染�
 <!-- IE7 模式强制浏览器按照 IE 7 标准模式渲染文档，忽略是否定义指令 -->
 <meta http-equiv="X-UA-Compatible" content="IE=7">
 
-<!-- Emulate IE9 模式告诉 IE 使用指令来决定如果渲染文档。标准模式下以 IE9 渲染，怪异模式下以 IE5 渲染。和 IE9 模式不同的是，Emulate IE9 模式会考虑指令 -->
+<!-- Emulate IE9 模式告诉 IE 使用指令来决定如果渲染文档。
+标准模式下以 IE9 渲染，怪异模式下以 IE5 渲染。和 IE9 模式不同的是，Emulate IE9 模式会考虑指令 -->
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
 
-<!-- Emulate IE8 模式告诉 IE 使用指令来决定如果渲染文档。标准模式下以 IE8 渲染，怪异模式下以 IE5 渲染。和 IE8 模式不同的是，Emulate IE8 模式会考虑指令 -->
+<!-- Emulate IE8 模式告诉 IE 使用指令来决定如果渲染文档。
+标准模式下以 IE8 渲染，怪异模式下以 IE5 渲染。和 IE8 模式不同的是，Emulate IE8 模式会考虑指令 -->
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
 
-<!-- Emulate IE7 模式告诉 IE 使用指令来决定如果渲染文档。标准模式下以 IE7 渲染，怪异模式下以 IE5 渲染。和 IE7 模式不同的是，Emulate IE7 模式会考虑指令。对于大多数站点而言，这是首选的兼容模式 -->
+<!-- Emulate IE7 模式告诉 IE 使用指令来决定如果渲染文档。
+标准模式下以 IE7 渲染，怪异模式下以 IE5 渲染。和 IE7 模式不同的是，Emulate IE7 模式会考虑指令。
+对于大多数站点而言，这是首选的兼容模式 -->
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 <!-- IE5 模式告诉 IE7 是否以怪异模式渲染文档 -->
 <meta http-equiv="X-UA-Compatible" content="IE=5">
 
-<!-- Edge 模式告诉 IE 以最高级模式渲染文档，也就是任何 IE 版本都以当前版本所支持的最高级标准模式渲染，避免版本升级造成的影响。简单的说，就是什么版本 IE 就用什么版本的标准模式渲染 -->
+<!-- Edge 模式告诉 IE 以最高级模式渲染文档，也就是任何 IE 版本都以当前版本所支持的最高级标准模式渲染，避免版本升级造成的影响。
+简单的说，就是什么版本 IE 就用什么版本的标准模式渲染 -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <!-- 使用以下代码强制 IE 使用 Chrome Frame 渲染 -->
@@ -75,7 +80,8 @@ Google Chrome Frame（Google Chrome內嵌框架）是专为Internet Explorer设�
 网页设计员可以在网页中加入以下代码使网站能以Chrome Frame浏览：
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
-<!-- 若浏览者有安装Chrome Frame，且浏览者的IE浏览器版本为IE8或更低，此代码会自动引导浏览器激活插件进行排版及运算；但若浏览者并没有安装插件或IE版本为IE9或更高，则不会进行任何动作。 -->
+<!-- 若浏览者有安装Chrome Frame，且浏览者的IE浏览器版本为IE8或更低，此代码会自动引导浏览器激活插件进行排版及运算；
+但若浏览者并没有安装插件或IE版本为IE9或更高，则不会进行任何动作。 -->
 ```
 
 __参考资料：__
