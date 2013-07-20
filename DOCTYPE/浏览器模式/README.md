@@ -14,6 +14,7 @@ __各主流浏览器对三种模式的描诉：__
 2. Opera：[DOCTYPE Switches support in Opera](http://www.opera.com/docs/specs/doctype/)
 3. IE：[Defining document compatibility](http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85\).aspx) ([中文](http://msdn.microsoft.com/zh-cn/library/cc288325(v=vs.85\).aspx))
 
+------
 
 ## 模式详解
 
@@ -94,21 +95,19 @@ IE8有4种模式：IE5.5怪异模式、IE7标准模式、IE8准标准模式和IE
 ### IE9兼容性视图与IE9标准视图
 
 如果我们使用一句简单的JavaScript语句来查看用户代理（User-Agent）字符串的值，则可以看到IE9兼容性视图与IE9的区别：
-‵‵`javascript
+
     alert('UA:'+navigator.userAgent);  
-```
 
 输出结果如下所示，注意其中的MSIE版本号已经不同。判断浏览器模式就是判断User-Agent中的版本号，即MSIE后面的数值：
-```html
-// IE9  
-UA:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Tablet PC 2.0)  
- 
-// IE9 兼容性视图  
-UA:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Tablet PC 2.0) 
 
-//真实IE7
-Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
-```
+    // IE9  
+    UA:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Tablet PC 2.0)  
+     
+    // IE9 兼容性视图  
+    UA:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Tablet PC 2.0) 
+     
+    //真实IE7
+    Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
 
 话说IE9兼容性视图是模拟IE7的行为，那么IE9兼容性视图与IE7有没有区别呢？<br>
 肯定是有区别的，即使是IE9中的IE7标准模式，与原生的IE7在渲染上也是有区别的，具体我们暂不去深究。
