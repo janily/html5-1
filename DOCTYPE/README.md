@@ -17,8 +17,8 @@
 
 ### HTML 4.01
 
-该标签可声明三种 DTD 类型，分别表示严格版本（Strict）、过渡版本（Transitional）以及基于框架（Frameset）的 HTML 文档。<br>
-<br>
+该标签可声明三种 DTD 类型，分别表示严格版本（Strict）、过渡版本（Transitional）以及基于框架（Frameset）的 HTML 文档。
+
 以下面这个`<!DOCTYPE>`标签为例：
 ```html
 <!DOCTYPE html
@@ -29,14 +29,14 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 该`<!DOCTYPE>`由三部分组成，分别是：根元素，公共标识符，系统标识符
 
 在上面的声明中，声明了文档的根元素是 html，它在公共标识符被定义为 "-//W3C//DTD XHTML 1.0 Strict//EN" 的 DTD 中进行了定义。<br>
-浏览器将明白如何寻找匹配此公共标识符的 DTD。如果找不到，浏览器将使用公共标识符后面的系统标识符（URL）作为寻找 DTD 的位置。<br>
-<br>
+浏览器将明白如何寻找匹配此公共标识符的 DTD。如果找不到，浏览器将使用公共标识符后面的系统标识符（URL）作为寻找 DTD 的位置。
+
 __公共标识符格式：__
 ```html
 前缀//所有者 //类型 标签描述            //语言//显示版本
 -  //W3C   //DTD XHTML 1.0 Strict   //EN //...
 ```
-<br>
+
 __公共标识符前缀类型：___
 
 1. ISO：是"国际标准化组织"的标准
