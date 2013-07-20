@@ -69,15 +69,14 @@ __注：__
 
 Google Chrome Frame（Google Chrome內嵌框架）是专为Internet Explorer设计的一个插件。<br>
 这插件可运行于Windows 7、Vista、XP SP2或更高版本操作系统中的Internet Explorer 6、7、8、9，使Internet Explorer可以基于谷歌瀏覽器中的Webkit引擎及V8引擎进行排版及运算，即能令Internet Explorer 6、7、8支持HTML5代码。<br>
-浏览使用支持Chrome Frame的Google服务会自动使用Chrome内核渲染，如Youtube、Google文件、Orkut等已经打开了对Chrome Frame的支持。<br>
 
 开发原意是使不支持HTML5的Internet Explorer也能浏览Google Wave及其它使用了HTML5代码的Google服务。
 
 网页设计员可以在网页中加入以下代码使网站能以Chrome Frame浏览：
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
+<!-- 若浏览者有安装Chrome Frame，且浏览者的IE浏览器版本为IE8或更低，此代码会自动引导浏览器激活插件进行排版及运算；但若浏览者并没有安装插件或IE版本为IE9或更高，则不会进行任何动作。 -->
 ```
-若浏览者有安装Chrome Frame，且浏览者的IE浏览器版本为IE8或更低，此代码会自动引导浏览器激活插件进行排版及运算；但若浏览者并没有安装插件或IE版本为IE9或更高，则不会进行任何动作。
 
 __参考资料：__
 
