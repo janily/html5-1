@@ -87,9 +87,9 @@ Google Chrome Frame（Google Chrome內嵌框架）是专为Internet Explorer设�
 
 __参考资料：__
 
-[百度百科](http://baike.baidu.com/view/2831140.htm)<br>
-[维基百科](http://zh.wikipedia.org/wiki/Google_Chrome_Frame)<br>
-[Google Chrome Frame](https://developers.google.com/chrome/chrome-frame/)
+- [百度百科](http://baike.baidu.com/view/2831140.htm)<br>
+- [维基百科](http://zh.wikipedia.org/wiki/Google_Chrome_Frame)<br>
+- [Google Chrome Frame](https://developers.google.com/chrome/chrome-frame/)
 
 ## IE模式选择流程图：
 ![IE模式选择流程图](http://hsivonen.iki.fi/doctype/ie8-mode.png)
