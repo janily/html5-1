@@ -17,9 +17,12 @@ __广义上的WEB标准由下列要素所构成︰__
 
 ## 2. [侠义上的WEB标准](http://baike.baidu.com/view/7921.htm)
 
-网页主要由三部分组成：结构（Structure）、表现（Presentation）和行为（Behavior）。
+网页主要由三部分组成：结构（Structure）、表现（Presentation）和行为（Behavior）。<br>
+__对应的标准也分三方面：__
 
-对应的标准也分三方面：结构化标准语言主要包括XHTML/XML/HTML，表现标准语言主要包括CSS，行为标准主要包括对象模型（DOM）、ECMAScript等。
+1. 结构化标准语言主要包括XHTML/XML/HTML，
+2. 表现标准语言主要包括CSS，
+3. 行为标准主要包括对象模型（DOM）、ECMAScript等。
 
 
 ### 2.1 结构标准
