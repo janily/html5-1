@@ -4,9 +4,12 @@
 
 [W3C：DOCTYPE说明和标准写法](http://www.w3.org/TR/html/syntax.html#syntax-doctype)
 
+---
+
 ## 定义和用法
 
 `<!DOCTYPE>`声明位于文档中的最前面的位置，处于`<html>`标签之前。
+
 
 ### 历史遗留字符串
 
