@@ -33,8 +33,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 __公共标识符格式：__
 ```html
-前缀//所有者//类型 标签描述            //语言//显示版本
--  //W3C  //DTD XHTML 1.0 Strict   //EN //...
+前缀//所有者 //类型 标签描述            //语言//显示版本
+-  //W3C   //DTD XHTML 1.0 Strict   //EN //...
 ```
 
 __公共标识符前缀类型：___
@@ -50,7 +50,7 @@ HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SG
 而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为（让浏览器按照它们应该的方式来运行。）
 
 在 HTML 4.01 中有 3 个不同的文档类型，在 HTML 5 中只有一个：
-‵‵`html
+```html
 <!DOCTYPE HTML>
 ```
 
