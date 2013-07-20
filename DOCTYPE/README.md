@@ -2,11 +2,11 @@
 
 文档类型（DOCument TYPE, DOCTYPE），一个DOCTYPE是一种标准通用标记语言的文档类型声明，它的目的是要告诉标准通用标记语言解析器，它应该使用什么样的文档类型定义（DTD）来解析文档。
 
-[W3C DOCTYPE说明和标准写法](http://www.w3.org/TR/html/syntax.html#syntax-doctype)
+[W3C：DOCTYPE说明和标准写法](http://www.w3.org/TR/html/syntax.html#syntax-doctype)
 
 ## 定义和用法
 
-<!DOCTYPE> 声明位于文档中的最前面的位置，处于 <html> 标签之前。
+`<!DOCTYPE>`声明位于文档中的最前面的位置，处于`<html>`标签之前。
 
 ### 历史遗留字符串
 
