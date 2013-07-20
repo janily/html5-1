@@ -10,9 +10,9 @@ __现在的浏览器排版引擎支持三种模式：__
 
 __各主流浏览器对三种模式的描诉：__
 
-1. FireFox：[Mozilla's DOCTYPE sniffing](https://developer.mozilla.org/en-US/docs/Mozilla's_DOCTYPE_sniffing)
-2. Opera：[DOCTYPE Switches support in Opera](http://www.opera.com/docs/specs/doctype/)
-3. IE：[Defining document compatibility](http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85\).aspx) ([中文](http://msdn.microsoft.com/zh-cn/library/cc288325(v=vs.85\).aspx))
+- FireFox：[Mozilla's DOCTYPE sniffing](https://developer.mozilla.org/en-US/docs/Mozilla's_DOCTYPE_sniffing)
+- Opera：[DOCTYPE Switches support in Opera](http://www.opera.com/docs/specs/doctype/)
+- IE：[Defining document compatibility](http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85\).aspx) ([中文](http://msdn.microsoft.com/zh-cn/library/cc288325(v=vs.85\).aspx))
 
 ------
 
@@ -38,10 +38,10 @@ HTML5把这种模式叫着“受限怪异模式(limited quirks mode)”。
 
 ### 内容类型为application/xhtml+xml的模式（XML模式）
 
-1. Firefox、Safari、Chrome和Opera中，application/xhtml+xml HTTP内容类型（不是meta元素也不是doctype!）会触发XML模式。<br>
+- Firefox、Safari、Chrome和Opera中，application/xhtml+xml HTTP内容类型（不是meta元素也不是doctype!）会触发XML模式。<br>
 在XML模式中，浏览器尝试给XML文档在规范上的正确处理达到在制定浏览器中的程度。
 
-2. IE6、7和8不支持application/xhtml+xml，Mac IE5也如此。
+- IE6、7和8不支持application/xhtml+xml，Mac IE5也如此。
 
 
 ### 非Web模式（Non-Web Modes）
@@ -143,6 +143,5 @@ if (window.navigator.appName == "Microsoft Internet Explorer")
 
 ## 参考资料
 
-__[深入理解浏览器兼容性模式](http://www.csdn.net/article/2012-10-22/2811049-Understanding-the-browser-compatibility-)__
-
-__[用doctype激活浏览器模式](http://dancewithnet.com/2009/06/14/activating-browser-modes-with-doctype/)__ __([英文原版](http://hsivonen.iki.fi/doctype/))__
+- [深入理解浏览器兼容性模式](http://www.csdn.net/article/2012-10-22/2811049-Understanding-the-browser-compatibility-)
+- [用doctype激活浏览器模式](http://dancewithnet.com/2009/06/14/activating-browser-modes-with-doctype/)__ __([英文原版](http://hsivonen.iki.fi/doctype/))
