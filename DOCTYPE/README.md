@@ -13,9 +13,7 @@
 
 ### 历史遗留字符串
 
-```html
- <!DOCTYPE html SYSTEM "about:legacy-compat">
-```
+    <!DOCTYPE html SYSTEM "about:legacy-compat">
 
 
 ### HTML 4.01
@@ -24,11 +22,9 @@
 
 以下面这个`<!DOCTYPE>`标签为例：
 
-```html
-<!DOCTYPE html
-PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-```
+    <!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 该`<!DOCTYPE>`由三部分组成，分别是：根元素，公共标识符，系统标识符
 
@@ -37,12 +33,10 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 __公共标识符格式：__
 
-```html
-前缀//所有者 //类型 标签描述            //语言//显示版本
--  //W3C   //DTD XHTML 1.0 Strict   //EN //...
-```
+    前缀//所有者 //类型 标签描述            //语言//显示版本
+    -  //W3C   //DTD XHTML 1.0 Strict   //EN //...
 
-__公共标识符前缀类型：___
+__公共标识符前缀类型：__
 
 1. ISO：是"国际标准化组织"的标准
 2. +：组织名称已注册
@@ -54,9 +48,5 @@ __公共标识符前缀类型：___
 HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SGML。<br>
 而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为（让浏览器按照它们应该的方式来运行。）
 
-在 HTML 4.01 中有 3 个不同的文档类型，在 HTML 5 中只有一个：
-
-```html
-<!DOCTYPE HTML>
-```
+在 HTML 4.01 中有 3 个不同的文档类型，在 HTML 5 中只有一个：`<!DOCTYPE HTML>`
 
