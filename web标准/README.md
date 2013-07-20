@@ -42,7 +42,7 @@ __W3C标准：__[HTML 4.01](http://www.w3.org/TR/html4/)
 可扩展超文本标记语言（eXtensible HyperText Markup Language, XHTML），是一种标记语言，表现方式与超文本标记语言（HTML）类似，不过语法上更加严格。从继承关系上讲，XHTML基于可扩展标记语言（Extensible Markup Language, XML）[百度百科](http://baike.baidu.com/view/973701.htm), [维基百科](http://zh.wikipedia.org/wiki/XML)，XML是SGML的一个子集。XHTML 1.0在2000年1月26日成为W3C的推荐标准。
 
 __参考资料：__[百度百科](http://baike.baidu.com/view/15906.htm), [维基百科](http://zh.wikipedia.org/wiki/XHTML) <br>
-__W3C标准：__[XHTML™ 2.0](http://www.w3.org/TR/xhtml2/)([中文 1.0](http://chinese-school.netfirms.com/XHTML10.html))
+__W3C标准：__[XHTML™ 2.0](http://www.w3.org/TR/xhtml2/) ([中文 1.0](http://chinese-school.netfirms.com/XHTML10.html))
 
 
 #### 2.1.3 HTML 5
@@ -63,7 +63,7 @@ __满足标准：__
 层叠样式表（Cascading Style Sheets, CSS），又称串样式列表，一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护。目前最新版本是CSS2.1，为W3C的推荐标准。CSS3现在已被大部分现代浏览器支持，而下一版的CSS4仍在开发过程中。
 
 __参考资料：__[百度百科](http://baike.baidu.com/view/15916.htm), [维基百科](http://zh.wikipedia.org/wiki/CSS) <br>
-__W3C标准：__[CSS 2.1](http://www.w3.org/TR/CSS21/) [中文](http://www.w3.org/html/ig/zh/wiki/CSS2)
+__W3C标准：__[CSS 2.1](http://www.w3.org/TR/CSS21/) ([中文](http://www.w3.org/html/ig/zh/wiki/CSS2))
 
 
 ### 2.3 行为标准
