@@ -38,10 +38,10 @@ HTML5把这种模式叫着“受限怪异模式(limited quirks mode)”。
 
 ### 内容类型为application/xhtml+xml的模式（XML模式）
 
-Firefox、Safari、Chrome和Opera中，application/xhtml+xml HTTP内容类型（不是meta元素也不是doctype!）会触发XML模式。<br>
+1. Firefox、Safari、Chrome和Opera中，application/xhtml+xml HTTP内容类型（不是meta元素也不是doctype!）会触发XML模式。<br>
 在XML模式中，浏览器尝试给XML文档在规范上的正确处理达到在制定浏览器中的程度。
 
-IE6、7和8不支持application/xhtml+xml，Mac IE5也如此。
+2. IE6、7和8不支持application/xhtml+xml，Mac IE5也如此。
 
 
 ### 非Web模式（Non-Web Modes）
