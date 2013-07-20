@@ -23,6 +23,7 @@
 该标签可声明三种 DTD 类型，分别表示严格版本（Strict）、过渡版本（Transitional）以及基于框架（Frameset）的 HTML 文档。
 
 以下面这个`<!DOCTYPE>`标签为例：
+
 ```html
 <!DOCTYPE html
 PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
@@ -35,6 +36,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 浏览器将明白如何寻找匹配此公共标识符的 DTD。如果找不到，浏览器将使用公共标识符后面的系统标识符（URL）作为寻找 DTD 的位置。
 
 __公共标识符格式：__
+
 ```html
 前缀//所有者 //类型 标签描述            //语言//显示版本
 -  //W3C   //DTD XHTML 1.0 Strict   //EN //...
@@ -50,9 +52,10 @@ __公共标识符前缀类型：___
 ### HTML 5
 
 HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SGML。<br>
-而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为（让浏览器按照它们应该的方式来运行。）<br>
-<br>
+而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为（让浏览器按照它们应该的方式来运行。）
+
 在 HTML 4.01 中有 3 个不同的文档类型，在 HTML 5 中只有一个：
+
 ```html
 <!DOCTYPE HTML>
 ```
