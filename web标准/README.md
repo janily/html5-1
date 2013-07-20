@@ -50,7 +50,7 @@ __W3C标准：__[XHTML™ 2.0](http://www.w3.org/TR/xhtml2/) ([中文 1.0](http:
 HTML5是HTML下一个主要的修订版本，现在仍处于发展阶段。目标是取代HTML 4.01和XHTML 1.0 标准，以期能在互联网应用迅速发展的时候，使网络标准达到符合当代的网络需求。广义论及HTML5时，实际指的是包括HTML、CSS和JavaScript在内的一套技术组合。它希望能够减少浏览器对于需要插件的丰富性网络应用服务（plug-in-based rich internet application，RIA)，如Adobe Flash、Microsoft Silverlight，与Oracle JavaFX的需求，并且提供更多能有效增强网络应用的标准集。
 
 __参考资料：__[百度百科](http://baike.baidu.com/view/951383.htm), [维基百科](http://zh.wikipedia.org/wiki/HTML5) <br>
-__W3C标准：__[HTML5](http://www.w3.org/TR/html/)([中文](http://www.w3.org/html/ig/zh/wiki/HTML5)) <br>
+__W3C标准：__[HTML5](http://www.w3.org/TR/html/) ([中文](http://www.w3.org/html/ig/zh/wiki/HTML5)) <br>
 __满足标准：__
 如果有网站或网页宣称遵循HTML标准，通常就表示他们的网页满足[Web内容无障碍指南](http://w3c.andtoo.net/wcag20zh.htm)([English](http://www.w3.org/TR/WCAG/))以及[HTML](http://www.w3.org/html/ig/zh/wiki/HTML5)([English](http://www.w3.org/TR/html/))语义的要求。
 
