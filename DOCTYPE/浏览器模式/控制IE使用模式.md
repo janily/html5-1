@@ -1,8 +1,7 @@
 # 控制IE使用模式
 
-## IE8 并发症
+## IE下的模式
 
-IE8除doctype外会使用基于meta元素的模式转换作为模式选择的因素之一。
 
 IE8有4种模式：IE5.5怪异模式、IE7标准模式、IE8 准标准模式 和IE8标准模式。
 
@@ -60,7 +59,7 @@ IE 浏览器支持多种文档兼容模式，得以因此改变页面的渲染�
 
 __注：__
 
-1. 把X-UA-Compatible写在<link>或<script>标签下面，X-UA-Compatible的设置无效。
+1. 把X-UA-Compatible写在`<link>`或`<script>`标签下面，X-UA-Compatible的设置无效。
 2. 页面、服务器HTTP Header都设置了X-UA-Compatible的情况，使用页面的X-UA-Compatible设置。页面无X-UA-Compatible，才使用HTTP Header设置的值。
 3. IE=xx的值，ie会尝试xx转换为最接近的值。比如：IE=7.789 -> IE=7；介于5、6之间的->IE=5。
 4. IE=4、IE=3、IE=0.1、IE=-7 这些小于5的，包括类似IE=IE8、IE=IE7、IE=IE6、IE=a、IE=b、IE=bcd，和无X-UA-Compatiblesh是一样。可以理解为X-UA-Compatible设置了无效的值，所以跳过这里了。
@@ -68,9 +67,10 @@ __注：__
 
 ### 关于Chrome Frame
 
-Google Chrome Frame（Google Chrome內嵌框架）是专为Internet Explorer设计的一个插件。相应的开源计划为Chromium的一部分，其采用BSD许可证授权并开放源代码。<br>
-这插件可运行于Windows 7、Vista、XP SP2或更高版本操作系统中的Internet Explorer 6、7、8、9，使Internet Explorer可以基于谷歌瀏覽器中的Webkit引擎及V8引擎进行排版及运算，即能获得比原有Internet Explorer更快、更安全网页浏览体验，并且令Internet Explorer 6、7、8支持HTML5代码。<br>
+Google Chrome Frame（Google Chrome內嵌框架）是专为Internet Explorer设计的一个插件。<br>
+这插件可运行于Windows 7、Vista、XP SP2或更高版本操作系统中的Internet Explorer 6、7、8、9，使Internet Explorer可以基于谷歌瀏覽器中的Webkit引擎及V8引擎进行排版及运算，即能令Internet Explorer 6、7、8支持HTML5代码。<br>
 浏览使用支持Chrome Frame的Google服务会自动使用Chrome内核渲染，如Youtube、Google文件、Orkut等已经打开了对Chrome Frame的支持。<br>
+
 开发原意是使不支持HTML5的Internet Explorer也能浏览Google Wave及其它使用了HTML5代码的Google服务。
 
 网页设计员可以在网页中加入以下代码使网站能以Chrome Frame浏览：
@@ -85,7 +85,7 @@ __参考资料：__
 [维基百科](http://zh.wikipedia.org/wiki/Google_Chrome_Frame)<br>
 [Google Chrome Frame](https://developers.google.com/chrome/chrome-frame/)
 
-__IE模式选择流程图：__
+## IE模式选择流程图：
 ![IE模式选择流程图](http://hsivonen.iki.fi/doctype/ie8-mode.png)
 
 
