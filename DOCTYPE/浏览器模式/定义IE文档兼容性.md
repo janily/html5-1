@@ -1,10 +1,9 @@
-# 控制IE使用模式
+# 定义IE文档兼容性
 
 ## IE下的模式
 
-
-IE8有4种模式：IE5.5怪异模式、IE7标准模式、IE8 准标准模式 和IE8标准模式。<br>
-IE9有7种模式：IE5.5怪异模式、IE7标准模式、IE8几乎标准模式、IE8标准模式、IE9几乎标准模式、IE9标准模式、XML模式
+IE8有4种模式：IE5.5怪异模式、IE7标准模式、IE8准标准模式、IE8标准模式。<br>
+IE9有7种模式：IE5.5怪异模式、IE7标准模式、IE8准标准模式、IE8标准模式、IE9准标准模式、IE9标准模式、XML模式
 
 __模式的选择取决于来自几个方面的数据：__
 
@@ -22,9 +21,11 @@ __模式的选择取决于来自几个方面的数据：__
 为了对付这些影响，doctype是不够的，你需要X-UA-Compatible HTTP头和meta标签。
 
 
-## X-UA-Compatible 兼容模式
+## 指定文档兼容性模式：使用X-UA-Compatible 
 
-IE 浏览器支持多种文档兼容模式，得以因此改变页面的渲染效果。
+IE 浏览器支持多种文档兼容模式，得以因此改变页面的渲染效果。<br>
+为了帮助确保网页在将来的 Internet Explorer 版本中具有一致的外观，Internet Explorer 8 引入了文档兼容性。 <br>
+文档兼容性是对 Microsoft Internet Explorer 6 中引入的兼容性模式的扩展，使开发者可以选择 Internet Explorer 用于显示网页的特定呈现模式。
 
 ```html
 <!-- IE9 模式支持全范围的既定行业标准，包括 HTML5（草案）, W3C CSS Level 3 规范（草案）, SVG 1.0 规范等 -->
@@ -69,6 +70,10 @@ __注：__
 2. 页面、服务器HTTP Header都设置了X-UA-Compatible的情况，使用页面的X-UA-Compatible设置。页面无X-UA-Compatible，才使用HTTP Header设置的值。
 3. IE=xx的值，ie会尝试xx转换为最接近的值。比如：IE=7.789 -> IE=7；介于5、6之间的->IE=5。
 4. IE=4、IE=3、IE=0.1、IE=-7 这些小于5的，包括类似IE=IE8、IE=IE7、IE=IE6、IE=a、IE=b、IE=bcd，和无X-UA-Compatiblesh是一样。可以理解为X-UA-Compatible设置了无效的值，所以跳过这里了。
+
+__参考资料：__
+
+- [定义文档兼容性](http://msdn.microsoft.com/zh-cn/library/cc288325(v=vs.85).aspx)
 
 
 ### 关于Chrome Frame
