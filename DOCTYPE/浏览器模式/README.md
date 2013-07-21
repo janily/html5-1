@@ -144,4 +144,4 @@ if (window.navigator.appName == "Microsoft Internet Explorer")
 ## 参考资料
 
 - [深入理解浏览器兼容性模式](http://www.csdn.net/article/2012-10-22/2811049-Understanding-the-browser-compatibility-)
-- [用doctype激活浏览器模式](http://dancewithnet.com/2009/06/14/activating-browser-modes-with-doctype/)__ __([英文原版](http://hsivonen.iki.fi/doctype/))
+- [用doctype激活浏览器模式](http://dancewithnet.com/2009/06/14/activating-browser-modes-with-doctype/)([英文原版](http://hsivonen.iki.fi/doctype/))
