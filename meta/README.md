@@ -58,4 +58,15 @@ meta元素上的name属性表示key，content属性表示对应的value。<br>
      * _对应该值_是一组采用逗号(,)分割的单词，用来定义当前页面的关键字。
 
 
+## 属性 http-equiv
+
+当http-equiv属性在meta元素被指定，则该元素代表一种程序指令。
+
+### content-type	
+
+### default-style	
+
+### refresh
+
+
 
