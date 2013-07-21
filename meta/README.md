@@ -38,7 +38,7 @@ __注：__
 meta元素上的name属性表示key，content属性表示对应的value。<br>
 如果meta元素没有content属性，那么元数据kay-value的value部分对应是空字符串。
 
-### 常用的name属性值
+### 属性 name
 
 约定：注意描述内所说的“_对应该值_”是指name属性对应的value，也就是content属性的属性值
 
@@ -56,6 +56,17 @@ meta元素上的name属性表示key，content属性表示对应的value。<br>
     * _对应该值_必须是一个自由形式的字符串，它用于标识一个用来生成文档的软件包。
 5. keywords
      * _对应该值_是一组采用逗号(,)分割的单词，用来定义当前页面的关键字。
+
+
+## 属性 http-equiv
+
+当http-equiv属性在meta元素被指定，则该元素代表一种程序指令。
+
+### content-type	
+
+### default-style	
+
+### refresh
 
 
 
