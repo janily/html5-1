@@ -55,5 +55,5 @@ HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SG
 
 - [Recommended Doctype Declarations to use in your Web document](http://www.w3.org/QA/2002/04/valid-dtd-list.html)
 - [HTML DOCTYPE 标签 -- DTDs 文档类型声明](http://www.dreamdu.com/xhtml/tag_doctype/)
-- [W3C shcool - html 4.01 - 关于`<!DOCTYPE>`](http://www.w3school.com.cn/tags/tag_doctype.asp)
-- [W3C shcool - html 5 - 关于`<!DOCTYPE>`](http://www.w3school.com.cn/html5/tag_doctype.asp)
+- [w3school - html 4.01 - 关于`<!DOCTYPE>`](http://www.w3school.com.cn/tags/tag_doctype.asp)
+- [w3school - html 5 - 关于`<!DOCTYPE>`](http://www.w3school.com.cn/html5/tag_doctype.asp)
