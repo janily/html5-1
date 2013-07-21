@@ -38,7 +38,7 @@ __注：__
 meta元素上的name属性表示key，content属性表示对应的value。<br>
 如果meta元素没有content属性，那么元数据kay-value的value部分对应是空字符串。
 
-### 属性 name
+### 常用值
 
 约定：注意描述内所说的“_对应该值_”是指name属性对应的value，也就是content属性的属性值
 
@@ -62,11 +62,11 @@ meta元素上的name属性表示key，content属性表示对应的value。<br>
 
 当http-equiv属性在meta元素被指定，则该元素代表一种程序指令。
 
-### content-type	
+### 常用值
 
-### default-style	
-
-### refresh
+1. content-type	
+2. default-style	
+3. refresh
 
 
 
