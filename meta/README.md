@@ -40,7 +40,7 @@ meta元素上的name属性表示key，content属性表示对应的value。<br>
 
 ### 常用值
 
-约定：注意描述内所说的“_对应该值_”是指name属性对应的value，也就是content属性的属性值
+约定：注意描述内所说的 _对应该值_ 是指name属性对应的value，也就是content属性的属性值
 
 1. application-name
     * _对应该值_必须是一个简短的自由形式的字符串表示页面所代表的Web应用程序的名称。
